@@ -16,6 +16,9 @@ public class Message {
     private String content;
     private LocalDateTime timeStamp;
 
+    private String fileName;
+    private String fileUrl;
+
     public Message(String sender, String content) {
         this.sender = sender;
         this.content = content;
