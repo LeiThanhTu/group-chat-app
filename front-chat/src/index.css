@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+.file-message {
+  margin-top: 4px;
+  padding: 8px;
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.file-message a {
+  display: flex;
+  align-items: center;
+}
+
+.file-message svg {
+  margin-right: 4px;
+}
+
+.file-attachment {
+    margin-top: 4px;
+    padding: 8px;
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.file-link {
+    display: flex;
+    align-items: center;
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.file-link:hover {
+    text-decoration: underline;
+}
+
+.file-icon {
+    margin-right: 6px;
+}
+
+/* Add this to your CSS file or style section */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Style for the file link */
+a.flex.items-center.text-blue-400:hover {
+  text-decoration: underline;
+}
+
+/* Add this to your CSS */
+.file-preview {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background: #1f2937;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.file-preview button {
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  color: #f87171;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.file-preview button:hover {
+  color: #ef4444;
+}
